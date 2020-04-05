@@ -70,8 +70,6 @@
     <mesh file="../robel-scenes_dev/dhand/meshes/wristmount.stl" name="wristmount"/>
   </asset>
   <actuator>
-    <position joint="WR_ADB" class="WR" name="WR_ADB" ctrlrange="-0.436 0.436"/>
-    <position joint="WR_UD" class="WR" name="WR_UD" ctrlrange="-0.436 0.436"/>
     <position joint="FF_ADB" name="FF_ADB" class="ADB"/>
     <position joint="FF_MCP" name="FF_MCP" class="MCP"/>
     <position joint="FF_PIP" name="FF_PIP" class="PIP"/>

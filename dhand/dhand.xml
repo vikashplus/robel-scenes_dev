@@ -17,6 +17,7 @@
 <?xml version="1.0"?>
 <mujoco model="dHand">
   <compiler meshdir="../"/>
+  <include file="assets/dhand_wrist_dependencies.xml"/>
   <include file="assets/dhand_dependencies.xml"/>
   <include file="../scenes/basic_scene.xml"/>
   <worldbody>
