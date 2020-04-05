@@ -56,18 +56,18 @@
     </default>
   </default>
   <asset>
-    <mesh file="../dhand/meshes/bracket1.stl" name="bracket1"/>
-    <mesh file="../dhand/meshes/bracket2.stl" name="bracket2"/>
-    <mesh file="../dhand/meshes/finger.stl" name="finger"/>
-    <mesh file="../dhand/meshes/H-540.stl" name="H-540"/>
-    <mesh file="../dhand/meshes/knuckle.stl" name="knuckle"/>
-    <mesh file="../dhand/meshes/motor.stl" name="motor"/>
-    <mesh file="../dhand/meshes/PalmInterior.stl" name="PalmInterior"/>
-    <mesh file="../dhand/meshes/Palmplate.stl" name="Palmplate"/>
-    <mesh file="../dhand/meshes/thumb_bracket.stl" name="thumb_bracket"/>
-    <mesh file="../dhand/meshes/wristbracket1.stl" name="wristbracket1"/>
-    <mesh file="../dhand/meshes/wristbracket2.stl" name="wristbracket2"/>
-    <mesh file="../dhand/meshes/wristmount.stl" name="wristmount"/>
+    <mesh file="../robel-scenes_dev/dhand/meshes/bracket1.stl" name="bracket1"/>
+    <mesh file="../robel-scenes_dev/dhand/meshes/bracket2.stl" name="bracket2"/>
+    <mesh file="../robel-scenes_dev/dhand/meshes/finger.stl" name="finger"/>
+    <mesh file="../robel-scenes_dev/dhand/meshes/H-540.stl" name="H-540"/>
+    <mesh file="../robel-scenes_dev/dhand/meshes/knuckle.stl" name="knuckle"/>
+    <mesh file="../robel-scenes_dev/dhand/meshes/motor.stl" name="motor"/>
+    <mesh file="../robel-scenes_dev/dhand/meshes/PalmInterior.stl" name="PalmInterior"/>
+    <mesh file="../robel-scenes_dev/dhand/meshes/Palmplate.stl" name="Palmplate"/>
+    <mesh file="../robel-scenes_dev/dhand/meshes/thumb_bracket.stl" name="thumb_bracket"/>
+    <mesh file="../robel-scenes_dev/dhand/meshes/wristbracket1.stl" name="wristbracket1"/>
+    <mesh file="../robel-scenes_dev/dhand/meshes/wristbracket2.stl" name="wristbracket2"/>
+    <mesh file="../robel-scenes_dev/dhand/meshes/wristmount.stl" name="wristmount"/>
   </asset>
   <actuator>
     <position joint="WR_ADB" class="WR" name="WR_ADB" ctrlrange="-0.436 0.436"/>
