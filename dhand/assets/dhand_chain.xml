@@ -21,7 +21,7 @@
           <geom euler="1.57 0 1.66" mesh="motor" pos="-0.042 0 0.111"/>
           <geom euler="1.57 0 1.484" mesh="motor" pos="0.066 0 0.111"/>
           <geom material="visual_white" euler="1.57 0 1.57" mesh="PalmInterior" pos="0.011 0 0.053"/>
-          <geom euler="1.57 0 1.57" mesh="Palmplate" pos="0.013 0.025 0.061" material="visual_chrome"/>
+          <geom euler="-1.57 0 1.57" mesh="topPlate" pos="0.0275 0.028 0.054" material="visual_chrome"/>
           <geom euler="1.57 0 1.57" mesh="Palmplate" pos="0.013 -0.025 0.061"/>
           <geom class="phys_metal" pos="-0.011 0 0.048" size="0.047 0.027 0.037" type="box" mass=".300"/>
           <geom class="phys_metal" pos="-0.044 0 -.002" size="0.014 0.027 0.013" type="box" mass=".150"/>

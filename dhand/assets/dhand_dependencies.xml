@@ -64,6 +64,7 @@
     <mesh file="../robel-scenes_dev/dhand/meshes/motor.stl" name="motor"/>
     <mesh file="../robel-scenes_dev/dhand/meshes/PalmInterior.stl" name="PalmInterior"/>
     <mesh file="../robel-scenes_dev/dhand/meshes/Palmplate.stl" name="Palmplate"/>
+    <mesh file="../robel-scenes_dev/dhand/meshes/topPlate.stl" name="topPlate"/>
     <mesh file="../robel-scenes_dev/dhand/meshes/thumb_bracket.stl" name="thumb_bracket"/>
     <mesh file="../robel-scenes_dev/dhand/meshes/wristbracket1.stl" name="wristbracket1"/>
     <mesh file="../robel-scenes_dev/dhand/meshes/wristbracket2.stl" name="wristbracket2"/>
