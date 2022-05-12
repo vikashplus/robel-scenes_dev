@@ -27,7 +27,7 @@
         <geom class="phys_metal" pos="0 0 0.024" euler="0 0 1.57" size="0.017 0.023 0.03" type="box" mass=".183" conaffinity="0" contype="0"/>
 
 <!-- include D'Hand begin-->
-<include file="../../robel-scenes_dev/dhand/assets/dhand_chain.xml"/>
+<include file="../../robel_sim/dhand/assets/dhand_chain.xml"/>
 <!-- include D'Hand end-->
 
       </body>

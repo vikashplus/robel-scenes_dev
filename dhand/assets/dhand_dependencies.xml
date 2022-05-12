@@ -56,19 +56,19 @@
     </default>
   </default>
   <asset>
-    <mesh file="../robel-scenes_dev/dhand/meshes/bracket1.stl" name="bracket1"/>
-    <mesh file="../robel-scenes_dev/dhand/meshes/bracket2.stl" name="bracket2"/>
-    <mesh file="../robel-scenes_dev/dhand/meshes/finger.stl" name="finger"/>
-    <mesh file="../robel-scenes_dev/dhand/meshes/H-540.stl" name="H-540"/>
-    <mesh file="../robel-scenes_dev/dhand/meshes/knuckle.stl" name="knuckle"/>
-    <mesh file="../robel-scenes_dev/dhand/meshes/motor.stl" name="motor"/>
-    <mesh file="../robel-scenes_dev/dhand/meshes/PalmInterior.stl" name="PalmInterior"/>
-    <mesh file="../robel-scenes_dev/dhand/meshes/Palmplate.stl" name="Palmplate"/>
-    <mesh file="../robel-scenes_dev/dhand/meshes/topPlate.stl" name="topPlate"/>
-    <mesh file="../robel-scenes_dev/dhand/meshes/thumb_bracket.stl" name="thumb_bracket"/>
-    <mesh file="../robel-scenes_dev/dhand/meshes/wristbracket1.stl" name="wristbracket1"/>
-    <mesh file="../robel-scenes_dev/dhand/meshes/wristbracket2.stl" name="wristbracket2"/>
-    <mesh file="../robel-scenes_dev/dhand/meshes/wristmount.stl" name="wristmount"/>
+    <mesh file="../robel_sim/dhand/meshes/bracket1.stl" name="bracket1"/>
+    <mesh file="../robel_sim/dhand/meshes/bracket2.stl" name="bracket2"/>
+    <mesh file="../robel_sim/dhand/meshes/finger.stl" name="finger"/>
+    <mesh file="../robel_sim/dhand/meshes/H-540.stl" name="H-540"/>
+    <mesh file="../robel_sim/dhand/meshes/knuckle.stl" name="knuckle"/>
+    <mesh file="../robel_sim/dhand/meshes/motor.stl" name="motor"/>
+    <mesh file="../robel_sim/dhand/meshes/PalmInterior.stl" name="PalmInterior"/>
+    <mesh file="../robel_sim/dhand/meshes/Palmplate.stl" name="Palmplate"/>
+    <mesh file="../robel_sim/dhand/meshes/topPlate.stl" name="topPlate"/>
+    <mesh file="../robel_sim/dhand/meshes/thumb_bracket.stl" name="thumb_bracket"/>
+    <mesh file="../robel_sim/dhand/meshes/wristbracket1.stl" name="wristbracket1"/>
+    <mesh file="../robel_sim/dhand/meshes/wristbracket2.stl" name="wristbracket2"/>
+    <mesh file="../robel_sim/dhand/meshes/wristmount.stl" name="wristmount"/>
   </asset>
   <actuator>
     <position joint="FF_ADB" name="FF_ADB" class="ADB"/>

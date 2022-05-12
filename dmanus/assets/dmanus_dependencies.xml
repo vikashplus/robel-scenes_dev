@@ -42,35 +42,58 @@
     </default>
   </default>
   <asset>
-    <mesh file="../robel-scenes_dev/dmanus/meshes/bracket2.stl" name="bracket2"/>
-    <mesh file="../robel-scenes_dev/dmanus/meshes/finger.stl" name="finger"/>
-    <mesh file="../robel-scenes_dev/dmanus/meshes/H-540.stl" name="H-540"/>
-    <mesh file="../robel-scenes_dev/dmanus/meshes/knuckle.stl" name="knuckle"/>
-    <mesh file="../robel-scenes_dev/dmanus/meshes/motor.stl" name="motor"/>
-    <mesh file="../robel-scenes_dev/dmanus/meshes/PalmC.stl" name="PalmC"/>
-    <mesh file="../robel-scenes_dev/dmanus/meshes/PalmR.stl" name="PalmR"/>
-    <mesh file="../robel-scenes_dev/dmanus/meshes/PalmL1.stl" name="PalmL1"/>
-    <mesh file="../robel-scenes_dev/dmanus/meshes/PalmL2.stl" name="PalmL2"/>
-    <mesh file="../robel-scenes_dev/dmanus/meshes/PalmFull.stl" name="PalmFull"/>
-    <mesh file="../robel-scenes_dev/dmanus/meshes/plate.stl" name="plate"/>
-    <mesh file="../robel-scenes_dev/dmanus/meshes/wristbracket1.stl" name="wristbracket1"/>
-    <mesh file="../robel-scenes_dev/dmanus/meshes/wristbracket2.stl" name="wristbracket2"/>
-    <mesh file="../robel-scenes_dev/dmanus/meshes/wristmount.stl" name="wristmount"/>
-    <mesh file="../robel-scenes_dev/dmanus/meshes/fingertip.stl" name="fingertip"/>
+    <mesh file="../robel_sim/dmanus/meshes/bracket2.stl" name="bracket2"/>
+    <mesh file="../robel_sim/dmanus/meshes/finger.stl" name="finger"/>
+    <mesh file="../robel_sim/dmanus/meshes/H-540.stl" name="H-540"/>
+    <mesh file="../robel_sim/dmanus/meshes/knuckle.stl" name="knuckle"/>
+    <mesh file="../robel_sim/dmanus/meshes/motor.stl" name="motor"/>
+    <mesh file="../robel_sim/dmanus/meshes/PalmC.stl" name="PalmC"/>
+    <mesh file="../robel_sim/dmanus/meshes/PalmR.stl" name="PalmR"/>
+    <mesh file="../robel_sim/dmanus/meshes/PalmL1.stl" name="PalmL1"/>
+    <mesh file="../robel_sim/dmanus/meshes/PalmL2.stl" name="PalmL2"/>
+    <mesh file="../robel_sim/dmanus/meshes/PalmFull.stl" name="PalmFull"/>
+    <mesh file="../robel_sim/dmanus/meshes/plate.stl" name="plate"/>
+    <mesh file="../robel_sim/dmanus/meshes/wristbracket1.stl" name="wristbracket1"/>
+    <mesh file="../robel_sim/dmanus/meshes/wristbracket2.stl" name="wristbracket2"/>
+    <mesh file="../robel_sim/dmanus/meshes/wristmount.stl" name="wristmount"/>
+    <mesh file="../robel_sim/dmanus/meshes/fingertip.stl" name="fingertip"/>
   </asset>
 
   <actuator>
     <position joint="TF_ADB" name="TF_ADB" class="ADB" ctrlrange="-2.57 .57"/>
     <position joint="TF_MCP" name="TF_MCP" class="MCP"/>
-    <position joint="TF_PIP" name="TF_PIP" class="PIP"/>
-
+    <position joint="TF_PIP" name="TF_PIP" class="MCP"/>
+    <position joint="TF_DIP" name="TF_DIP" class="PIP"/>
     <position joint="FF_ADB" name="FF_ADB" class="ADB"/>
     <position joint="FF_MCP" name="FF_MCP" class="MCP"/>
     <position joint="FF_PIP" name="FF_PIP" class="PIP"/>
-
     <position joint="PF_ADB" name="PF_ADB" class="ADB"/>
     <position joint="PF_MCP" name="PF_MCP" class="MCP"/>
     <position joint="PF_PIP" name="PF_PIP" class="PIP"/>
   </actuator>
+
+  <sensor>
+    <jointpos joint="TF_ADB" name="TF_ADB_jp"/>
+    <jointpos joint="TF_MCP" name="TF_MCP_jp"/>
+    <jointpos joint="TF_PIP" name="TF_PIP_jp"/>
+    <jointpos joint="TF_DIP" name="TF_DIP_jp"/>
+    <jointpos joint="FF_ADB" name="FF_ADB_jp"/>
+    <jointpos joint="FF_MCP" name="FF_MCP_jp"/>
+    <jointpos joint="FF_PIP" name="FF_PIP_jp"/>
+    <jointpos joint="PF_ADB" name="PF_ADB_jp"/>
+    <jointpos joint="PF_MCP" name="PF_MCP_jp"/>
+    <jointpos joint="PF_PIP" name="PF_PIP_jp"/>
+
+    <jointvel joint="TF_ADB" name="TF_ADB_jv"/>
+    <jointvel joint="TF_MCP" name="TF_MCP_jv"/>
+    <jointvel joint="TF_PIP" name="TF_PIP_jv"/>
+    <jointvel joint="TF_DIP" name="TF_DIP_jv"/>
+    <jointvel joint="FF_ADB" name="FF_ADB_jv"/>
+    <jointvel joint="FF_MCP" name="FF_MCP_jv"/>
+    <jointvel joint="FF_PIP" name="FF_PIP_jv"/>
+    <jointvel joint="PF_ADB" name="PF_ADB_jv"/>
+    <jointvel joint="PF_MCP" name="PF_MCP_jv"/>
+    <jointvel joint="PF_PIP" name="PF_PIP_jv"/>
+  </sensor>
 
 </mujocoinclude>
