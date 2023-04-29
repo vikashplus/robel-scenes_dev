@@ -19,14 +19,14 @@
   <compiler angle="radian" inertiafromgeom="auto" inertiagrouprange="3 5"/>
   <option timestep="0.0025"/>
   <asset>
-    <mesh name="motor" file="../dclaw/meshes/xh_base_high_poly.stl" scale=".001 .001 .001"/>
-    <mesh name="motor_hull" file="../dclaw/meshes/xh_base_hull.stl" scale=".001 .001 .001"/>
-    <mesh name="valve_4" file="../dclaw_stations/meshes/valve_4_high_poly.stl" scale=".001 .001 .001"/>
-    <mesh name="valve_3" file="../dclaw_stations/meshes/valve_3_high_poly.stl" scale=".001 .001 .001"/>
-    <mesh name="station_base" file="../dclaw_stations/meshes/station_plastic_base.stl" scale=".001 .001 .001"/>
-    <mesh name="station_metal_base" file="../dclaw_stations/meshes/station_metal_base.stl" scale=".001 .001 .001"/>
-    <mesh name="station_surface" file="../dclaw_stations/meshes/station_surface.stl" scale=".001 .001 .001"/>
-    <mesh name="station_plastic_walls" file="../dclaw_stations/meshes/station_plastic_walls.stl" scale=".001 .001 .001"/>
+    <mesh name="motor" file="../robel_sim/dclaw/meshes/xh_base_high_poly.stl" scale=".001 .001 .001"/>
+    <mesh name="motor_hull" file="../robel_sim/dclaw/meshes/xh_base_hull.stl" scale=".001 .001 .001"/>
+    <mesh name="valve_4" file="../robel_sim/dclaw_stations/meshes/valve_4_high_poly.stl" scale=".001 .001 .001"/>
+    <mesh name="valve_3" file="../robel_sim/dclaw_stations/meshes/valve_3_high_poly.stl" scale=".001 .001 .001"/>
+    <mesh name="station_base" file="../robel_sim/dclaw_stations/meshes/station_plastic_base.stl" scale=".001 .001 .001"/>
+    <mesh name="station_metal_base" file="../robel_sim/dclaw_stations/meshes/station_metal_base.stl" scale=".001 .001 .001"/>
+    <mesh name="station_surface" file="../robel_sim/dclaw_stations/meshes/station_surface.stl" scale=".001 .001 .001"/>
+    <mesh name="station_plastic_walls" file="../robel_sim/dclaw_stations/meshes/station_plastic_walls.stl" scale=".001 .001 .001"/>
     <material name="station_metal_grey" specular="1" shininess="1" rgba="0.5 0.5 0.5 1.0"/>
     <material name="plastic_white" specular="0.3" shininess="0" rgba="1 1 1 1"/>
     <material name="plastic_grey" specular="0.3" shininess="0" rgba="0.5 0.5 0.5 1.0"/>

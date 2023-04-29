@@ -7,10 +7,10 @@
 ====================================================== -©vk©-->
 <?xml version="1.0"?>
 <mujoco model="dmanus">
-  <compiler meshdir="../"/>
   <include file="assets/dmanus_wrist_dependencies.xml"/>
   <include file="assets/dmanus_dependencies.xml"/>
   <include file="../scenes/basic_scene.xml"/>
+  <compiler meshdir=".." texturedir=".."/>
   <worldbody>
     <body name="handmount">
       <include file="assets/stand_chain.xml"/>

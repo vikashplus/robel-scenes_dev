@@ -16,7 +16,7 @@
 
 <?xml version="1.0"?>
 <mujoco model="dclaw3xh">
-  <compiler meshdir="."/>
+  <compiler meshdir=".."/>
   <include file="assets/dependencies3xh.xml"/>
   <include file="../scenes/basic_scene.xml"/>
   <worldbody>

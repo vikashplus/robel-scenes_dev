@@ -19,7 +19,7 @@
   <include file="../scenes/basic_scene.xml"/>
   <include file="../dclaw/assets/dependencies3xh.xml"/>
   <include file="../dclaw_stations/assets/dependencies.xml"/>
-  <compiler meshdir="." texturedir="."/>
+  <compiler meshdir=".." texturedir=".."/>
   <worldbody>
     <body name="mount" pos="0 0 .335" euler="0 0 0">
       <geom name="mount" type="cylinder" size="0.03 0.005" rgba=".7 .7 .7 1"/>

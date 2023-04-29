@@ -19,7 +19,7 @@
   <include file="../scenes/basic_scene.xml"/>
   <include file="assets/dependenciesA_xh-v2.1.xml"/>
   <include file="assets/dependenciesB_xh-v2.1.xml"/>
-  <compiler meshdir="."/>
+  <compiler meshdir=".." texturedir=".."/>
   <worldbody>
     <body name="A:kitty_frame" pos="0.2 0 0.3">
       <camera name="A:trackingZ" pos="0 0 3" zaxis="0 0 3" mode="trackcom"/>
