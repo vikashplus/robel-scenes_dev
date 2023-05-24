@@ -1,3 +1,4 @@
+
 <!--
  ~ Copyright 2019 The ROBEL Authors.
  ~
@@ -14,10 +15,14 @@
  ~ limitations under the License.
  -->
 
-<?xml version="1.0"?>
 <mujocoinclude>
   <body childclass="dkitty" name="A:dkitty">
     <!-- Torso -->
+    <camera name="A:headCam" fovy="90" pos="0 .15 0" euler="1.57 0 0"/>
+    <camera name="A:tailCam" fovy="90" pos="0 -.15 0" euler="-1.57 0 3.14"/>
+    <camera name="A:leftCam" fovy="90" pos="-.05 0 0" euler="0 1.57 1.57"/>
+    <camera name="A:rightCam" fovy="90" pos=".05 0 0" euler="0 -1.57 -1.57"/>
+
     <geom class="viz_plastic" name="A:head" type="box" size=".012 .035 .017" pos="0 0.104 0" rgba="0 0 1 1"/>
     <geom class="viz_plastic" mesh="D_kitty_plates_V2" pos="0 0 0.0155" rgba=".3 .3 1 1"/>
     <geom class="viz_plastic" mesh="D_kitty_plates_V2" pos="0 0 -0.0155" rgba=".3 .3 1 1"/>
